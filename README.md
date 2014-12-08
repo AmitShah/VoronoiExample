@@ -1,4 +1,4 @@
-VoronoiExample - Real time Voronoi computation for Android
+Real time Voronoi computation for Android
 ==============
 
 This is an Android implementation of a localised nearest neighbour algorithm to compute and animate Voronoi cells in real time using OpenGL. The algorithm splits the available space into a grid with integer grid lines. It then places two seed points in each grid cell, each in random positions within the cell. An OpenGL texture full of random values is precomputed and used in the shader as a lookup table to generate coordinates for the seed points.
